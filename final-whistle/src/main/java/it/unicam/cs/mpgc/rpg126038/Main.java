@@ -10,8 +10,6 @@ public class Main {
 
     /**
      * Metodo principale che avvia l'applicazione.
-     *
-     * @param args argomenti da riga di comando
      */
     public static void main(String[] args) {
         MainApp.main(args);

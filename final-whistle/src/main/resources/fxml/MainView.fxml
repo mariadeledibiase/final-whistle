@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="it.unicam.cs.mpgc.rpg126038.ui.MainController"
+      spacing="20"
+      alignment="CENTER"
+      style="-fx-padding: 40; -fx-background-color: #1a1a2e;">
+
+    <Label text="⚽ FINAL WHISTLE"
+           style="-fx-font-size: 36; -fx-font-weight: bold; -fx-text-fill: #e94560;"/>
+
+    <Label text="Gestisci il tuo torneo a eliminazione"
+           style="-fx-font-size: 16; -fx-text-fill: #ffffff;"/>
+
+    <Button fx:id="btnNewTournament"
+            text="Nuovo Torneo"
+            onAction="#onNewTournament"
+            style="-fx-font-size: 14; -fx-background-color: #e94560; -fx-text-fill: white; -fx-min-width: 200;"/>
+
+    <Button fx:id="btnLoadTournament"
+            text="Carica Torneo"
+            onAction="#onLoadTournament"
+            style="-fx-font-size: 14; -fx-background-color: #16213e; -fx-text-fill: white; -fx-min-width: 200;"/>
+
+    <Button fx:id="btnExit"
+            text="Esci"
+            onAction="#onExit"
+            style="-fx-font-size: 14; -fx-background-color: #0f3460; -fx-text-fill: white; -fx-min-width: 200;"/>
+
+</VBox>
