@@ -42,11 +42,11 @@ public class Tournament {
      * Genera le partite del prossimo turno.
      * Le squadre vengono abbinate in ordine di lista.
      */
-    public void generateRound(List<Team> teams) {
+    public void generateRound(List<Team> teamsForRound) {
         currentRound.clear();
         roundNumber++;
-        for (int i = 0; i < teams.size() - 1; i += 2) {
-            currentRound.add(new Match(teams.get(i), teams.get(i + 1)));
+        for (int i = 0; i < teamsForRound.size() - 1; i += 2) {
+            currentRound.add(new Match(teamsForRound.get(i), teamsForRound.get(i + 1)));
         }
     }
 
@@ -64,10 +64,17 @@ public class Tournament {
     }
 
     /**
-     * Indica se il torneo è terminato (rimane una sola squadra).
+     * Indica se tutte le partite del turno corrente sono state giocate.
+     */
+    public boolean isCurrentRoundFinished() {
+        return currentRound.stream().allMatch(Match::isPlayed);
+    }
+
+    /**
+     * Indica se il torneo è terminato (rimane una sola squadra vincitrice).
      */
     public boolean isFinished() {
-        return teams.size() >= 2 && getWinners().size() == 1 && currentRound.size() == 1;
+        return isCurrentRoundFinished() && getWinners().size() == 1;
     }
 
     public String getName() { return name; }

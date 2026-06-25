@@ -2,74 +2,86 @@ package it.unicam.cs.mpgc.rpg126038.model;
 
 /**
  * Rappresenta un giocatore all'interno di una squadra.
- * Ogni giocatore ha un nome, un ruolo (Portiere, Difensore, Centrocampista, Attaccante) e tre caratteristiche:
- * attacco, difesa e velocità.
+ * Le statistiche del giocatore sono ispirate al fantacalcio: gol, assist, presenze e parate (per i portieri).
  */
 public class Player {
 
     /** Nome del giocatore */
     private String name;
 
-    /** Ruolo del giocatore (Portiere, Difensore, Centrocampista, Attaccante) */
+    /** Ruolo del giocatore */
     private String role;
 
-    /** Statistica di attacco del giocatore (0-100) */
-    private int attack;
+    /** Numero di gol segnati */
+    private int goals;
 
-    /** Statistica di difesa del giocatore (0-100) */
-    private int defense;
+    /** Numero di assist effettuati */
+    private int assists;
 
-    /** Statistica di velocità del giocatore (0-100) */
-    private int speed;
+    /** Numero di presenze in campo */
+    private int presences;
+
+    /** Numero di parate (rilevante solo per i portieri) */
+    private int saves;
 
     /**
-     * Costruttore che inizializza un giocatore con tutte le sue caratteristiche.
-     *
-     * @param name    il nome del giocatore
-     * @param role    il ruolo del giocatore
-     * @param attack  il valore di attacco
-     * @param defense il valore di difesa
-     * @param speed   il valore di velocità
+     * Costruttore che inizializza un giocatore con tutte le statistiche.
      */
-    public Player(String name, String role, int attack, int defense, int speed) {
+    public Player(String name, String role, int goals, int assists, int presences, int saves) {
         this.name = name;
         this.role = role;
-        this.attack = attack;
-        this.defense = defense;
-        this.speed = speed;
+        this.goals = goals;
+        this.assists = assists;
+        this.presences = presences;
+        this.saves = saves;
     }
 
     /**
-     * Restituisce il nome del giocatore.
+     * Calcola il punteggio del giocatore in base al ruolo, come nel fantacalcio ogni ruolo ha pesi diversi.
      */
+    public double calculateScore() {
+        return switch (role) {
+            case "Portiere"       -> saves * 0.5 + presences * 0.3 + goals * 0.2;
+            case "Difensore"      -> presences * 0.4 + assists * 0.3 + goals * 0.3;
+            case "Centrocampista" -> assists * 0.4 + presences * 0.3 + goals * 0.3;
+            case "Attaccante"     -> goals * 0.5 + assists * 0.3 + presences * 0.2;
+            default               -> (goals + assists + presences + saves) / 4.0;
+        };
+    }
+
+    /**
+     * Aggiunge un gol al contatore del giocatore.
+     */
+    public void addGoal() { this.goals++; }
+
+    /**
+     * Aggiunge un assist al contatore del giocatore.
+     */
+    public void addAssist() { this.assists++; }
+
+    /**
+     * Aggiunge una presenza al contatore del giocatore.
+     */
+    public void addPresence() { this.presences++; }
+
+    /**
+     * Aggiunge parate al contatore del portiere.
+     */
+    public void addSaves(int n) { this.saves += n; }
+
     public String getName() { return name; }
-
-    /**
-     * Restituisce il ruolo del giocatore.
-     */
     public String getRole() { return role; }
+    public int getGoals() { return goals; }
+    public int getAssists() { return assists; }
+    public int getPresences() { return presences; }
+    public int getSaves() { return saves; }
 
     /**
-     * Restituisce il valore di attacco del giocatore.
-     */
-    public int getAttack() { return attack; }
-
-    /**
-     * Restituisce il valore di difesa del giocatore.
-     */
-    public int getDefense() { return defense; }
-
-    /**
-     * Restituisce il valore di velocità del giocatore.
-     */
-    public int getSpeed() { return speed; }
-
-    /**
-     * Restituisce una rappresentazione del giocatore
-     * con nome, ruolo e statistiche.
+     * Restituisce una rappresentazione testuale del giocatore.
      */
     @Override
     public String toString() {
-        return name + " [" + role + "] ATT:" + attack + " DEF:" + defense + " SPD:" + speed;
+        return name + " [" + role + "] Gol:" + goals + " Assist:" + assists +
+                " Presenze:" + presences + " Parate:" + saves;
     }
 }

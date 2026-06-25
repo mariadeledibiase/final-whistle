@@ -13,8 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * Implementazione del repository che salva e carica
- * i tornei in formato JSON su file system.
+ * Implementazione del repository che salva e carica i tornei in formato JSON su file system.
  * Utilizza la libreria Gson per la serializzazione e deserializzazione.
  */
 public class JsonTournamentRepository implements Repository<Tournament> {
@@ -36,8 +35,6 @@ public class JsonTournamentRepository implements Repository<Tournament> {
     /**
      * Salva un torneo su file JSON.
      * Il file viene nominato con il nome del torneo.
-     *
-     * @param tournament il torneo da salvare
      */
     @Override
     public void save(Tournament tournament) {
@@ -52,9 +49,6 @@ public class JsonTournamentRepository implements Repository<Tournament> {
 
     /**
      * Cerca e carica un torneo dal file JSON corrispondente al nome.
-     *
-     * @param name il nome del torneo da cercare
-     * @return un Optional contenente il torneo se trovato, altrimenti vuoto
      */
     @Override
     public Optional<Tournament> findByName(String name) {
@@ -71,8 +65,6 @@ public class JsonTournamentRepository implements Repository<Tournament> {
 
     /**
      * Restituisce tutti i tornei salvati nella cartella di salvataggio.
-     *
-     * @return lista di tutti i tornei salvati
      */
     @Override
     public List<Tournament> findAll() {
@@ -97,8 +89,6 @@ public class JsonTournamentRepository implements Repository<Tournament> {
 
     /**
      * Elimina il file JSON corrispondente al torneo con il nome indicato.
-     *
-     * @param name il nome del torneo da eliminare
      */
     @Override
     public void delete(String name) {

@@ -42,19 +42,21 @@ public class Team {
     }
 
     /**
-     * Calcola la forza complessiva della squadra
-     * in base alle statistiche dei giocatori e alla tattica adottata.
+     * Calcola la forza complessiva della squadra in base al punteggio fantacalcio dei giocatori e alla tattica adottata.
      */
+
     public double calculateStrength() {
         if (players.isEmpty()) return 0;
-
-        double totalAttack = players.stream().mapToInt(Player::getAttack).average().orElse(0);
-        double totalDefense = players.stream().mapToInt(Player::getDefense).average().orElse(0);
-
+        double base = players.stream()
+                .mapToDouble(Player::calculateScore)
+                .average()
+                .orElse(0);
+        // Se tutti i giocatori hanno statistiche a 0, usa un valore base casuale
+        if (base == 0) base = 50;
         return switch (tactic) {
-            case OFFENSIVE -> totalAttack * 0.7 + totalDefense * 0.3;
-            case DEFENSIVE -> totalAttack * 0.3 + totalDefense * 0.7;
-            case BALANCED  -> totalAttack * 0.5 + totalDefense * 0.5;
+            case OFFENSIVE -> base * 1.2;
+            case DEFENSIVE -> base * 0.9;
+            case BALANCED  -> base;
         };
     }
 

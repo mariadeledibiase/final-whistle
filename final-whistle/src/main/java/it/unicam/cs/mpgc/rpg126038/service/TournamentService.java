@@ -5,13 +5,13 @@ import it.unicam.cs.mpgc.rpg126038.model.Match;
 import it.unicam.cs.mpgc.rpg126038.model.Team;
 import it.unicam.cs.mpgc.rpg126038.model.Tournament;
 import it.unicam.cs.mpgc.rpg126038.persistence.Repository;
+import it.unicam.cs.mpgc.rpg126038.engine.MatchEngine;
 
 import java.util.List;
 
 /**
  * Servizio che gestisce la logica di business del torneo.
- * Fa da intermediario tra il modello e l'interfaccia grafica,coordinando la simulazione delle partite e la persistenza dei dati.
- * Rispetta il principio di separazione delle responsabilità (SOLID).
+ * Fa da intermediario tra il modello e l'interfaccia grafica, coordinando la simulazione delle partite e la persistenza dei dati.
  */
 public class TournamentService {
 
@@ -58,16 +58,22 @@ public class TournamentService {
      */
     public void simulateCurrentRound() {
         for (Match match : tournament.getCurrentRound()) {
-            matchEngine.simulate(match);
+            if (!match.isPlayed()) {
+                matchEngine.simulate(match);
+            }
         }
     }
 
     /**
      * Avanza al turno successivo usando i vincitori del turno corrente.
+     * Funziona solo se tutte le partite del turno sono state simulate.
      */
     public void nextRound() {
+        if (!tournament.isCurrentRoundFinished()) return;
         List<Team> winners = tournament.getWinners();
-        tournament.generateRound(winners);
+        if (winners.size() > 1) {
+            tournament.generateRound(winners);
+        }
     }
 
     /**
@@ -89,5 +95,11 @@ public class TournamentService {
      */
     public Tournament getTournament() {
         return tournament;
+    }
+    /**
+     * Restituisce il motore di simulazione delle partite.
+     */
+    public MatchEngine getMatchEngine() {
+        return matchEngine;
     }
 }

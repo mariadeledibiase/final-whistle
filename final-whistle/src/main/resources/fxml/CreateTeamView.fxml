@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="it.unicam.cs.mpgc.rpg126038.ui.CreateTeamController"
+      spacing="16"
+      alignment="CENTER"
+      style="-fx-background-color: #f5f5f5; -fx-padding: 30;">
+
+    <!-- Header -->
+    <HBox alignment="CENTER_LEFT" style="-fx-background-color: white;
+          -fx-padding: 16 24 16 24; -fx-background-radius: 12;
+          -fx-effect: dropshadow(gaussian, #e0e0e0, 6, 0, 0, 2);">
+        <VBox>
+            <Label text="Crea la tua Squadra"
+                   style="-fx-font-size: 24; -fx-font-weight: bold; -fx-text-fill: #1a1a1a;"/>
+            <Label text="Inserisci nome, tattica e rosa giocatori"
+                   style="-fx-font-size: 13; -fx-text-fill: #888888;"/>
+        </VBox>
+    </HBox>
+
+    <!-- Dati squadra -->
+    <VBox spacing="12" style="-fx-background-color: white; -fx-padding: 20;
+                               -fx-background-radius: 12;
+                               -fx-effect: dropshadow(gaussian, #e0e0e0, 6, 0, 0, 2);">
+        <Label text="SQUADRA"
+               style="-fx-font-size: 11; -fx-font-weight: bold;
+                      -fx-text-fill: #2e7d32; -fx-letter-spacing: 1;"/>
+        <HBox spacing="12" alignment="CENTER_LEFT">
+            <TextField fx:id="txtTeamName"
+                       promptText="Nome squadra (es. FC Roma)"
+                       style="-fx-font-size: 14; -fx-padding: 10;
+                              -fx-background-radius: 8; -fx-border-color: #e0e0e0;
+                              -fx-border-radius: 8; -fx-min-width: 240;"/>
+            <ComboBox fx:id="cmbTactic"
+                      style="-fx-font-size: 13; -fx-min-width: 140;"/>
+        </HBox>
+    </VBox>
+
+    <!-- Dati giocatore -->
+    <VBox spacing="12" style="-fx-background-color: white; -fx-padding: 20;
+                               -fx-background-radius: 12;
+                               -fx-effect: dropshadow(gaussian, #e0e0e0, 6, 0, 0, 2);">
+        <Label text="GIOCATORI"
+               style="-fx-font-size: 11; -fx-font-weight: bold;
+                      -fx-text-fill: #2e7d32; -fx-letter-spacing: 1;"/>
+        <HBox spacing="12" alignment="CENTER_LEFT">
+            <TextField fx:id="txtPlayerName"
+                       promptText="Nome giocatore"
+                       style="-fx-font-size: 14; -fx-padding: 10;
+                              -fx-background-radius: 8; -fx-border-color: #e0e0e0;
+                              -fx-border-radius: 8; -fx-min-width: 200;"/>
+            <ComboBox fx:id="cmbRole"
+                      style="-fx-font-size: 13; -fx-min-width: 150;"/>
+            <Button text="+ Aggiungi"
+                    onAction="#onAddPlayer"
+                    style="-fx-background-color: #2e7d32; -fx-text-fill: white;
+                           -fx-font-size: 13; -fx-font-weight: bold;
+                           -fx-padding: 10 16 10 16; -fx-background-radius: 8;
+                           -fx-cursor: hand;"/>
+        </HBox>
+
+        <!-- Lista giocatori -->
+        <ListView fx:id="lstPlayers"
+                  style="-fx-min-height: 140; -fx-background-radius: 8;
+                         -fx-border-color: #eeeeee; -fx-border-radius: 8;
+                         -fx-font-size: 13;"/>
+    </VBox>
+
+    <!-- Pulsanti -->
+    <HBox spacing="12" alignment="CENTER">
+        <Button text="Inizia Torneo"
+                onAction="#onStartTournament"
+                style="-fx-background-color: #2e7d32; -fx-text-fill: white;
+                       -fx-font-size: 15; -fx-font-weight: bold;
+                       -fx-min-width: 220; -fx-padding: 13;
+                       -fx-background-radius: 10; -fx-cursor: hand;"/>
+        <Button text="Indietro"
+                onAction="#onBack"
+                style="-fx-background-color: #eeeeee; -fx-text-fill: #555;
+                       -fx-font-size: 14; -fx-min-width: 120;
+                       -fx-padding: 13; -fx-background-radius: 10; -fx-cursor: hand;"/>
+    </HBox>
+
+</VBox>

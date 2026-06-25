@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="it.unicam.cs.mpgc.rpg126038.ui.StatsController"
+      spacing="16"
+      alignment="CENTER"
+      style="-fx-background-color: #f5f5f5; -fx-padding: 24;">
+
+    <!-- Header -->
+    <HBox alignment="CENTER_LEFT" style="-fx-background-color: white;
+          -fx-padding: 16 24 16 24; -fx-background-radius: 12;
+          -fx-effect: dropshadow(gaussian, #e0e0e0, 6, 0, 0, 2);">
+        <VBox>
+            <Label text="Statistiche Torneo"
+                   style="-fx-font-size: 24; -fx-font-weight: bold; -fx-text-fill: #1a1a1a;"/>
+            <Label text="Classifica e performance giocatori"
+                   style="-fx-font-size: 13; -fx-text-fill: #888888;"/>
+        </VBox>
+    </HBox>
+
+    <!-- Tab -->
+    <VBox style="-fx-background-color: white; -fx-padding: 16;
+                 -fx-background-radius: 12;
+                 -fx-effect: dropshadow(gaussian, #e0e0e0, 6, 0, 0, 2);
+                 -fx-min-width: 560; -fx-min-height: 320;">
+        <TabPane fx:id="tabPane">
+            <Tab text="Classifica Squadre" closable="false">
+                <ListView fx:id="lstTeamStats"
+                          style="-fx-min-height: 260; -fx-font-size: 13;
+                                 -fx-border-color: #eeeeee; -fx-border-radius: 8;"/>
+            </Tab>
+            <Tab text="Statistiche Giocatori" closable="false">
+                <ListView fx:id="lstPlayerStats"
+                          style="-fx-min-height: 260; -fx-font-size: 13;
+                                 -fx-border-color: #eeeeee; -fx-border-radius: 8;"/>
+            </Tab>
+        </TabPane>
+    </VBox>
+
+    <!-- Pulsanti -->
+    <HBox spacing="12" alignment="CENTER">
+        <Button fx:id="btnAction"
+                text=""
+                onAction="#onAction"
+                style="-fx-background-color: #2e7d32; -fx-text-fill: white;
+                   -fx-font-size: 14; -fx-font-weight: bold;
+                   -fx-min-width: 220; -fx-padding: 13;
+                   -fx-background-radius: 10; -fx-cursor: hand;"/>
+        <Button text="Torna al Menu"
+                onAction="#onMainMenu"
+                style="-fx-background-color: #eeeeee; -fx-text-fill: #555;
+                   -fx-font-size: 14; -fx-min-width: 180; -fx-padding: 13;
+                   -fx-background-radius: 10; -fx-cursor: hand;"/>
+    </HBox>
+
+</VBox>
