@@ -1,0 +1,462 @@
+{
+  "name": "Final Whistle",
+  "teams": [
+    {
+      "name": "iubhinnoknù",
+      "players": [
+        {
+          "name": "iocvmfd",
+          "role": "Centrocampista",
+          "goals": 2,
+          "assists": 2,
+          "presences": 2,
+          "saves": 0
+        },
+        {
+          "name": "dmwpef",
+          "role": "Centrocampista",
+          "goals": 2,
+          "assists": 2,
+          "presences": 2,
+          "saves": 0
+        },
+        {
+          "name": "kpfmkpef",
+          "role": "Centrocampista",
+          "goals": 1,
+          "assists": 0,
+          "presences": 2,
+          "saves": 0
+        },
+        {
+          "name": "rpmrf",
+          "role": "Centrocampista",
+          "goals": 0,
+          "assists": 0,
+          "presences": 2,
+          "saves": 0
+        },
+        {
+          "name": "ij4w\u0027og",
+          "role": "Centrocampista",
+          "goals": 1,
+          "assists": 2,
+          "presences": 2,
+          "saves": 0
+        }
+      ],
+      "tactic": "BALANCED"
+    },
+    {
+      "name": "FC Macerata",
+      "players": [
+        {
+          "name": "Davide Paolucci",
+          "role": "Portiere",
+          "goals": 0,
+          "assists": 0,
+          "presences": 1,
+          "saves": 4
+        },
+        {
+          "name": "Marco Ricci",
+          "role": "Difensore",
+          "goals": 0,
+          "assists": 1,
+          "presences": 1,
+          "saves": 0
+        },
+        {
+          "name": "Davide Del Greco",
+          "role": "Difensore",
+          "goals": 0,
+          "assists": 0,
+          "presences": 1,
+          "saves": 0
+        },
+        {
+          "name": "Matteo Di Biase",
+          "role": "Centrocampista",
+          "goals": 2,
+          "assists": 0,
+          "presences": 1,
+          "saves": 0
+        },
+        {
+          "name": "Roberto Di Crescenzo",
+          "role": "Centrocampista",
+          "goals": 0,
+          "assists": 1,
+          "presences": 1,
+          "saves": 0
+        }
+      ],
+      "tactic": "OFFENSIVE"
+    },
+    {
+      "name": "United Pescara",
+      "players": [
+        {
+          "name": "Roberto Esposito",
+          "role": "Portiere",
+          "goals": 0,
+          "assists": 3,
+          "presences": 2,
+          "saves": 5
+        },
+        {
+          "name": "Marco Di Crescenzo",
+          "role": "Difensore",
+          "goals": 0,
+          "assists": 2,
+          "presences": 2,
+          "saves": 0
+        },
+        {
+          "name": "Luca Di Biase",
+          "role": "Difensore",
+          "goals": 0,
+          "assists": 1,
+          "presences": 2,
+          "saves": 0
+        },
+        {
+          "name": "Francesco Di Fabio",
+          "role": "Centrocampista",
+          "goals": 2,
+          "assists": 0,
+          "presences": 2,
+          "saves": 0
+        },
+        {
+          "name": "Matteo Di Biase",
+          "role": "Centrocampista",
+          "goals": 5,
+          "assists": 1,
+          "presences": 2,
+          "saves": 0
+        }
+      ],
+      "tactic": "BALANCED"
+    },
+    {
+      "name": "AC Camerino",
+      "players": [
+        {
+          "name": "Roberto Di Marzio",
+          "role": "Portiere",
+          "goals": 0,
+          "assists": 0,
+          "presences": 1,
+          "saves": 1
+        },
+        {
+          "name": "Marco Esposito",
+          "role": "Difensore",
+          "goals": 0,
+          "assists": 0,
+          "presences": 1,
+          "saves": 0
+        },
+        {
+          "name": "Giovanni Primavera",
+          "role": "Difensore",
+          "goals": 0,
+          "assists": 1,
+          "presences": 1,
+          "saves": 0
+        },
+        {
+          "name": "Francesco Primavera",
+          "role": "Centrocampista",
+          "goals": 2,
+          "assists": 0,
+          "presences": 1,
+          "saves": 0
+        },
+        {
+          "name": "Luca Ricci",
+          "role": "Centrocampista",
+          "goals": 0,
+          "assists": 1,
+          "presences": 1,
+          "saves": 0
+        }
+      ],
+      "tactic": "OFFENSIVE"
+    }
+  ],
+  "currentRound": [
+    {
+      "homeTeam": {
+        "name": "iubhinnoknù",
+        "players": [
+          {
+            "name": "iocvmfd",
+            "role": "Centrocampista",
+            "goals": 2,
+            "assists": 2,
+            "presences": 2,
+            "saves": 0
+          },
+          {
+            "name": "dmwpef",
+            "role": "Centrocampista",
+            "goals": 2,
+            "assists": 2,
+            "presences": 2,
+            "saves": 0
+          },
+          {
+            "name": "kpfmkpef",
+            "role": "Centrocampista",
+            "goals": 1,
+            "assists": 0,
+            "presences": 2,
+            "saves": 0
+          },
+          {
+            "name": "rpmrf",
+            "role": "Centrocampista",
+            "goals": 0,
+            "assists": 0,
+            "presences": 2,
+            "saves": 0
+          },
+          {
+            "name": "ij4w\u0027og",
+            "role": "Centrocampista",
+            "goals": 1,
+            "assists": 2,
+            "presences": 2,
+            "saves": 0
+          }
+        ],
+        "tactic": "BALANCED"
+      },
+      "awayTeam": {
+        "name": "United Pescara",
+        "players": [
+          {
+            "name": "Roberto Esposito",
+            "role": "Portiere",
+            "goals": 0,
+            "assists": 3,
+            "presences": 2,
+            "saves": 5
+          },
+          {
+            "name": "Marco Di Crescenzo",
+            "role": "Difensore",
+            "goals": 0,
+            "assists": 2,
+            "presences": 2,
+            "saves": 0
+          },
+          {
+            "name": "Luca Di Biase",
+            "role": "Difensore",
+            "goals": 0,
+            "assists": 1,
+            "presences": 2,
+            "saves": 0
+          },
+          {
+            "name": "Francesco Di Fabio",
+            "role": "Centrocampista",
+            "goals": 2,
+            "assists": 0,
+            "presences": 2,
+            "saves": 0
+          },
+          {
+            "name": "Matteo Di Biase",
+            "role": "Centrocampista",
+            "goals": 5,
+            "assists": 1,
+            "presences": 2,
+            "saves": 0
+          }
+        ],
+        "tactic": "BALANCED"
+      },
+      "result": {
+        "homeTeam": {
+          "name": "iubhinnoknù",
+          "players": [
+            {
+              "name": "iocvmfd",
+              "role": "Centrocampista",
+              "goals": 2,
+              "assists": 2,
+              "presences": 2,
+              "saves": 0
+            },
+            {
+              "name": "dmwpef",
+              "role": "Centrocampista",
+              "goals": 2,
+              "assists": 2,
+              "presences": 2,
+              "saves": 0
+            },
+            {
+              "name": "kpfmkpef",
+              "role": "Centrocampista",
+              "goals": 1,
+              "assists": 0,
+              "presences": 2,
+              "saves": 0
+            },
+            {
+              "name": "rpmrf",
+              "role": "Centrocampista",
+              "goals": 0,
+              "assists": 0,
+              "presences": 2,
+              "saves": 0
+            },
+            {
+              "name": "ij4w\u0027og",
+              "role": "Centrocampista",
+              "goals": 1,
+              "assists": 2,
+              "presences": 2,
+              "saves": 0
+            }
+          ],
+          "tactic": "BALANCED"
+        },
+        "awayTeam": {
+          "name": "United Pescara",
+          "players": [
+            {
+              "name": "Roberto Esposito",
+              "role": "Portiere",
+              "goals": 0,
+              "assists": 3,
+              "presences": 2,
+              "saves": 5
+            },
+            {
+              "name": "Marco Di Crescenzo",
+              "role": "Difensore",
+              "goals": 0,
+              "assists": 2,
+              "presences": 2,
+              "saves": 0
+            },
+            {
+              "name": "Luca Di Biase",
+              "role": "Difensore",
+              "goals": 0,
+              "assists": 1,
+              "presences": 2,
+              "saves": 0
+            },
+            {
+              "name": "Francesco Di Fabio",
+              "role": "Centrocampista",
+              "goals": 2,
+              "assists": 0,
+              "presences": 2,
+              "saves": 0
+            },
+            {
+              "name": "Matteo Di Biase",
+              "role": "Centrocampista",
+              "goals": 5,
+              "assists": 1,
+              "presences": 2,
+              "saves": 0
+            }
+          ],
+          "tactic": "BALANCED"
+        },
+        "homeGoals": 3,
+        "awayGoals": 4,
+        "events": [
+          {
+            "minute": 2,
+            "type": "GOL",
+            "playerName": "Matteo Di Biase",
+            "teamName": "United Pescara"
+          },
+          {
+            "minute": 14,
+            "type": "GOL",
+            "playerName": "Matteo Di Biase",
+            "teamName": "United Pescara"
+          },
+          {
+            "minute": 17,
+            "type": "GOL",
+            "playerName": "dmwpef",
+            "teamName": "iubhinnoknù"
+          },
+          {
+            "minute": 20,
+            "type": "GOL",
+            "playerName": "Francesco Di Fabio",
+            "teamName": "United Pescara"
+          },
+          {
+            "minute": 30,
+            "type": "GOL",
+            "playerName": "kpfmkpef",
+            "teamName": "iubhinnoknù"
+          },
+          {
+            "minute": 37,
+            "type": "GOL",
+            "playerName": "dmwpef",
+            "teamName": "iubhinnoknù"
+          },
+          {
+            "minute": 41,
+            "type": "PARATA",
+            "playerName": "rpmrf",
+            "teamName": "iubhinnoknù"
+          },
+          {
+            "minute": 48,
+            "type": "OCCASIONE_MANCATA",
+            "playerName": "ij4w\u0027og",
+            "teamName": "iubhinnoknù"
+          },
+          {
+            "minute": 69,
+            "type": "AMMONIZIONE",
+            "playerName": "iocvmfd",
+            "teamName": "iubhinnoknù"
+          },
+          {
+            "minute": 80,
+            "type": "PARATA",
+            "playerName": "ij4w\u0027og",
+            "teamName": "iubhinnoknù"
+          },
+          {
+            "minute": 84,
+            "type": "OCCASIONE_MANCATA",
+            "playerName": "kpfmkpef",
+            "teamName": "iubhinnoknù"
+          },
+          {
+            "minute": 85,
+            "type": "PARATA",
+            "playerName": "kpfmkpef",
+            "teamName": "iubhinnoknù"
+          },
+          {
+            "minute": 86,
+            "type": "GOL",
+            "playerName": "Francesco Di Fabio",
+            "teamName": "United Pescara"
+          }
+        ]
+      }
+    }
+  ],
+  "roundNumber": 2
+}

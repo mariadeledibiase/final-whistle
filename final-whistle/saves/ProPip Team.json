@@ -1,0 +1,216 @@
+{
+  "name": "ProPip Team",
+  "teams": [
+    {
+      "name": "Lollo Pip",
+      "players": [
+        {
+          "name": "frectt",
+          "role": "Centrocampista",
+          "goals": 2,
+          "assists": 5,
+          "presences": 5,
+          "saves": 0
+        },
+        {
+          "name": "ass",
+          "role": "Centrocampista",
+          "goals": 4,
+          "assists": 1,
+          "presences": 5,
+          "saves": 0
+        },
+        {
+          "name": "micc",
+          "role": "Centrocampista",
+          "goals": 3,
+          "assists": 4,
+          "presences": 5,
+          "saves": 0
+        },
+        {
+          "name": "trot",
+          "role": "Centrocampista",
+          "goals": 3,
+          "assists": 2,
+          "presences": 5,
+          "saves": 0
+        }
+      ],
+      "tactic": "BALANCED"
+    },
+    {
+      "name": "cariconee",
+      "players": [
+        {
+          "name": "23242",
+          "role": "Centrocampista",
+          "goals": 9,
+          "assists": 7,
+          "presences": 5,
+          "saves": 0
+        },
+        {
+          "name": "efdddd",
+          "role": "Centrocampista",
+          "goals": 7,
+          "assists": 9,
+          "presences": 5,
+          "saves": 0
+        }
+      ],
+      "tactic": "BALANCED"
+    },
+    {
+      "name": "okok",
+      "players": [
+        {
+          "name": "ipjpm",
+          "role": "Centrocampista",
+          "goals": 0,
+          "assists": 0,
+          "presences": 0,
+          "saves": 0
+        },
+        {
+          "name": "inpm",
+          "role": "Centrocampista",
+          "goals": 0,
+          "assists": 0,
+          "presences": 0,
+          "saves": 0
+        }
+      ],
+      "tactic": "BALANCED"
+    }
+  ],
+  "currentRound": [
+    {
+      "homeTeam": {
+        "name": "Lollo Pip",
+        "players": [
+          {
+            "name": "frectt",
+            "role": "Centrocampista",
+            "goals": 2,
+            "assists": 5,
+            "presences": 5,
+            "saves": 0
+          },
+          {
+            "name": "ass",
+            "role": "Centrocampista",
+            "goals": 4,
+            "assists": 1,
+            "presences": 5,
+            "saves": 0
+          },
+          {
+            "name": "micc",
+            "role": "Centrocampista",
+            "goals": 3,
+            "assists": 4,
+            "presences": 5,
+            "saves": 0
+          },
+          {
+            "name": "trot",
+            "role": "Centrocampista",
+            "goals": 3,
+            "assists": 2,
+            "presences": 5,
+            "saves": 0
+          }
+        ],
+        "tactic": "BALANCED"
+      },
+      "awayTeam": {
+        "name": "cariconee",
+        "players": [
+          {
+            "name": "23242",
+            "role": "Centrocampista",
+            "goals": 9,
+            "assists": 7,
+            "presences": 5,
+            "saves": 0
+          },
+          {
+            "name": "efdddd",
+            "role": "Centrocampista",
+            "goals": 7,
+            "assists": 9,
+            "presences": 5,
+            "saves": 0
+          }
+        ],
+        "tactic": "BALANCED"
+      },
+      "result": {
+        "homeTeam": {
+          "name": "Lollo Pip",
+          "players": [
+            {
+              "name": "frectt",
+              "role": "Centrocampista",
+              "goals": 2,
+              "assists": 5,
+              "presences": 5,
+              "saves": 0
+            },
+            {
+              "name": "ass",
+              "role": "Centrocampista",
+              "goals": 4,
+              "assists": 1,
+              "presences": 5,
+              "saves": 0
+            },
+            {
+              "name": "micc",
+              "role": "Centrocampista",
+              "goals": 3,
+              "assists": 4,
+              "presences": 5,
+              "saves": 0
+            },
+            {
+              "name": "trot",
+              "role": "Centrocampista",
+              "goals": 3,
+              "assists": 2,
+              "presences": 5,
+              "saves": 0
+            }
+          ],
+          "tactic": "BALANCED"
+        },
+        "awayTeam": {
+          "name": "cariconee",
+          "players": [
+            {
+              "name": "23242",
+              "role": "Centrocampista",
+              "goals": 9,
+              "assists": 7,
+              "presences": 5,
+              "saves": 0
+            },
+            {
+              "name": "efdddd",
+              "role": "Centrocampista",
+              "goals": 7,
+              "assists": 9,
+              "presences": 5,
+              "saves": 0
+            }
+          ],
+          "tactic": "BALANCED"
+        },
+        "homeGoals": 2,
+        "awayGoals": 3
+      }
+    }
+  ],
+  "roundNumber": 6
+}

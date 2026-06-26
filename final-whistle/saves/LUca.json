@@ -1,0 +1,648 @@
+{
+  "name": "LUca",
+  "teams": [
+    {
+      "name": "tatats",
+      "players": [
+        {
+          "name": "odk",
+          "role": "Centrocampista",
+          "goals": 13,
+          "assists": 7,
+          "presences": 12,
+          "saves": 0
+        },
+        {
+          "name": "ddd",
+          "role": "Centrocampista",
+          "goals": 9,
+          "assists": 11,
+          "presences": 12,
+          "saves": 0
+        },
+        {
+          "name": "aaa",
+          "role": "Centrocampista",
+          "goals": 10,
+          "assists": 4,
+          "presences": 12,
+          "saves": 0
+        },
+        {
+          "name": "ffff",
+          "role": "Portiere",
+          "goals": 0,
+          "assists": 10,
+          "presences": 12,
+          "saves": 32
+        }
+      ],
+      "tactic": "BALANCED"
+    },
+    {
+      "name": "ffffffAAA",
+      "players": [
+        {
+          "name": "ssss",
+          "role": "Centrocampista",
+          "goals": 10,
+          "assists": 7,
+          "presences": 12,
+          "saves": 0
+        },
+        {
+          "name": "FFFF",
+          "role": "Centrocampista",
+          "goals": 10,
+          "assists": 5,
+          "presences": 12,
+          "saves": 0
+        },
+        {
+          "name": "SSSAA",
+          "role": "Centrocampista",
+          "goals": 8,
+          "assists": 8,
+          "presences": 12,
+          "saves": 0
+        },
+        {
+          "name": "JJJ",
+          "role": "Portiere",
+          "goals": 0,
+          "assists": 8,
+          "presences": 12,
+          "saves": 37
+        }
+      ],
+      "tactic": "BALANCED"
+    },
+    {
+      "name": "erere",
+      "players": [
+        {
+          "name": "yyyyyyyy",
+          "role": "Centrocampista",
+          "goals": 7,
+          "assists": 5,
+          "presences": 11,
+          "saves": 0
+        },
+        {
+          "name": "llllllllll",
+          "role": "Centrocampista",
+          "goals": 12,
+          "assists": 5,
+          "presences": 11,
+          "saves": 0
+        },
+        {
+          "name": "yyyyyyyyy",
+          "role": "Centrocampista",
+          "goals": 10,
+          "assists": 6,
+          "presences": 11,
+          "saves": 0
+        },
+        {
+          "name": "tttttttttttt",
+          "role": "Portiere",
+          "goals": 0,
+          "assists": 4,
+          "presences": 11,
+          "saves": 32
+        },
+        {
+          "name": "24333",
+          "role": "Portiere",
+          "goals": 0,
+          "assists": 6,
+          "presences": 11,
+          "saves": 0
+        },
+        {
+          "name": "6u5u",
+          "role": "Portiere",
+          "goals": 0,
+          "assists": 3,
+          "presences": 11,
+          "saves": 0
+        }
+      ],
+      "tactic": "BALANCED"
+    },
+    {
+      "name": "utrj",
+      "players": [
+        {
+          "name": "uty",
+          "role": "Centrocampista",
+          "goals": 4,
+          "assists": 7,
+          "presences": 11,
+          "saves": 0
+        },
+        {
+          "name": "yjy",
+          "role": "Centrocampista",
+          "goals": 9,
+          "assists": 4,
+          "presences": 11,
+          "saves": 0
+        },
+        {
+          "name": "se5yhy",
+          "role": "Centrocampista",
+          "goals": 3,
+          "assists": 5,
+          "presences": 11,
+          "saves": 0
+        },
+        {
+          "name": "k5y7",
+          "role": "Centrocampista",
+          "goals": 9,
+          "assists": 9,
+          "presences": 11,
+          "saves": 0
+        }
+      ],
+      "tactic": "BALANCED"
+    }
+  ],
+  "currentRound": [
+    {
+      "homeTeam": {
+        "name": "tatats",
+        "players": [
+          {
+            "name": "odk",
+            "role": "Centrocampista",
+            "goals": 13,
+            "assists": 7,
+            "presences": 12,
+            "saves": 0
+          },
+          {
+            "name": "ddd",
+            "role": "Centrocampista",
+            "goals": 9,
+            "assists": 11,
+            "presences": 12,
+            "saves": 0
+          },
+          {
+            "name": "aaa",
+            "role": "Centrocampista",
+            "goals": 10,
+            "assists": 4,
+            "presences": 12,
+            "saves": 0
+          },
+          {
+            "name": "ffff",
+            "role": "Portiere",
+            "goals": 0,
+            "assists": 10,
+            "presences": 12,
+            "saves": 32
+          }
+        ],
+        "tactic": "BALANCED"
+      },
+      "awayTeam": {
+        "name": "ffffffAAA",
+        "players": [
+          {
+            "name": "ssss",
+            "role": "Centrocampista",
+            "goals": 10,
+            "assists": 7,
+            "presences": 12,
+            "saves": 0
+          },
+          {
+            "name": "FFFF",
+            "role": "Centrocampista",
+            "goals": 10,
+            "assists": 5,
+            "presences": 12,
+            "saves": 0
+          },
+          {
+            "name": "SSSAA",
+            "role": "Centrocampista",
+            "goals": 8,
+            "assists": 8,
+            "presences": 12,
+            "saves": 0
+          },
+          {
+            "name": "JJJ",
+            "role": "Portiere",
+            "goals": 0,
+            "assists": 8,
+            "presences": 12,
+            "saves": 37
+          }
+        ],
+        "tactic": "BALANCED"
+      },
+      "result": {
+        "homeTeam": {
+          "name": "tatats",
+          "players": [
+            {
+              "name": "odk",
+              "role": "Centrocampista",
+              "goals": 13,
+              "assists": 7,
+              "presences": 12,
+              "saves": 0
+            },
+            {
+              "name": "ddd",
+              "role": "Centrocampista",
+              "goals": 9,
+              "assists": 11,
+              "presences": 12,
+              "saves": 0
+            },
+            {
+              "name": "aaa",
+              "role": "Centrocampista",
+              "goals": 10,
+              "assists": 4,
+              "presences": 12,
+              "saves": 0
+            },
+            {
+              "name": "ffff",
+              "role": "Portiere",
+              "goals": 0,
+              "assists": 10,
+              "presences": 12,
+              "saves": 32
+            }
+          ],
+          "tactic": "BALANCED"
+        },
+        "awayTeam": {
+          "name": "ffffffAAA",
+          "players": [
+            {
+              "name": "ssss",
+              "role": "Centrocampista",
+              "goals": 10,
+              "assists": 7,
+              "presences": 12,
+              "saves": 0
+            },
+            {
+              "name": "FFFF",
+              "role": "Centrocampista",
+              "goals": 10,
+              "assists": 5,
+              "presences": 12,
+              "saves": 0
+            },
+            {
+              "name": "SSSAA",
+              "role": "Centrocampista",
+              "goals": 8,
+              "assists": 8,
+              "presences": 12,
+              "saves": 0
+            },
+            {
+              "name": "JJJ",
+              "role": "Portiere",
+              "goals": 0,
+              "assists": 8,
+              "presences": 12,
+              "saves": 37
+            }
+          ],
+          "tactic": "BALANCED"
+        },
+        "homeGoals": 3,
+        "awayGoals": 2,
+        "events": [
+          {
+            "minute": 4,
+            "type": "GOL",
+            "playerName": "ssss",
+            "teamName": "ffffffAAA"
+          },
+          {
+            "minute": 6,
+            "type": "GOL",
+            "playerName": "FFFF",
+            "teamName": "ffffffAAA"
+          },
+          {
+            "minute": 12,
+            "type": "PARATA",
+            "playerName": "SSSAA",
+            "teamName": "ffffffAAA"
+          },
+          {
+            "minute": 15,
+            "type": "AMMONIZIONE",
+            "playerName": "ssss",
+            "teamName": "ffffffAAA"
+          },
+          {
+            "minute": 43,
+            "type": "GOL",
+            "playerName": "aaa",
+            "teamName": "tatats"
+          },
+          {
+            "minute": 75,
+            "type": "GOL",
+            "playerName": "aaa",
+            "teamName": "tatats"
+          },
+          {
+            "minute": 77,
+            "type": "GOL",
+            "playerName": "aaa",
+            "teamName": "tatats"
+          },
+          {
+            "minute": 88,
+            "type": "OCCASIONE_MANCATA",
+            "playerName": "ddd",
+            "teamName": "tatats"
+          }
+        ]
+      }
+    },
+    {
+      "homeTeam": {
+        "name": "erere",
+        "players": [
+          {
+            "name": "yyyyyyyy",
+            "role": "Centrocampista",
+            "goals": 7,
+            "assists": 5,
+            "presences": 11,
+            "saves": 0
+          },
+          {
+            "name": "llllllllll",
+            "role": "Centrocampista",
+            "goals": 12,
+            "assists": 5,
+            "presences": 11,
+            "saves": 0
+          },
+          {
+            "name": "yyyyyyyyy",
+            "role": "Centrocampista",
+            "goals": 10,
+            "assists": 6,
+            "presences": 11,
+            "saves": 0
+          },
+          {
+            "name": "tttttttttttt",
+            "role": "Portiere",
+            "goals": 0,
+            "assists": 4,
+            "presences": 11,
+            "saves": 32
+          },
+          {
+            "name": "24333",
+            "role": "Portiere",
+            "goals": 0,
+            "assists": 6,
+            "presences": 11,
+            "saves": 0
+          },
+          {
+            "name": "6u5u",
+            "role": "Portiere",
+            "goals": 0,
+            "assists": 3,
+            "presences": 11,
+            "saves": 0
+          }
+        ],
+        "tactic": "BALANCED"
+      },
+      "awayTeam": {
+        "name": "utrj",
+        "players": [
+          {
+            "name": "uty",
+            "role": "Centrocampista",
+            "goals": 4,
+            "assists": 7,
+            "presences": 11,
+            "saves": 0
+          },
+          {
+            "name": "yjy",
+            "role": "Centrocampista",
+            "goals": 9,
+            "assists": 4,
+            "presences": 11,
+            "saves": 0
+          },
+          {
+            "name": "se5yhy",
+            "role": "Centrocampista",
+            "goals": 3,
+            "assists": 5,
+            "presences": 11,
+            "saves": 0
+          },
+          {
+            "name": "k5y7",
+            "role": "Centrocampista",
+            "goals": 9,
+            "assists": 9,
+            "presences": 11,
+            "saves": 0
+          }
+        ],
+        "tactic": "BALANCED"
+      },
+      "result": {
+        "homeTeam": {
+          "name": "erere",
+          "players": [
+            {
+              "name": "yyyyyyyy",
+              "role": "Centrocampista",
+              "goals": 7,
+              "assists": 5,
+              "presences": 11,
+              "saves": 0
+            },
+            {
+              "name": "llllllllll",
+              "role": "Centrocampista",
+              "goals": 12,
+              "assists": 5,
+              "presences": 11,
+              "saves": 0
+            },
+            {
+              "name": "yyyyyyyyy",
+              "role": "Centrocampista",
+              "goals": 10,
+              "assists": 6,
+              "presences": 11,
+              "saves": 0
+            },
+            {
+              "name": "tttttttttttt",
+              "role": "Portiere",
+              "goals": 0,
+              "assists": 4,
+              "presences": 11,
+              "saves": 32
+            },
+            {
+              "name": "24333",
+              "role": "Portiere",
+              "goals": 0,
+              "assists": 6,
+              "presences": 11,
+              "saves": 0
+            },
+            {
+              "name": "6u5u",
+              "role": "Portiere",
+              "goals": 0,
+              "assists": 3,
+              "presences": 11,
+              "saves": 0
+            }
+          ],
+          "tactic": "BALANCED"
+        },
+        "awayTeam": {
+          "name": "utrj",
+          "players": [
+            {
+              "name": "uty",
+              "role": "Centrocampista",
+              "goals": 4,
+              "assists": 7,
+              "presences": 11,
+              "saves": 0
+            },
+            {
+              "name": "yjy",
+              "role": "Centrocampista",
+              "goals": 9,
+              "assists": 4,
+              "presences": 11,
+              "saves": 0
+            },
+            {
+              "name": "se5yhy",
+              "role": "Centrocampista",
+              "goals": 3,
+              "assists": 5,
+              "presences": 11,
+              "saves": 0
+            },
+            {
+              "name": "k5y7",
+              "role": "Centrocampista",
+              "goals": 9,
+              "assists": 9,
+              "presences": 11,
+              "saves": 0
+            }
+          ],
+          "tactic": "BALANCED"
+        },
+        "homeGoals": 3,
+        "awayGoals": 2,
+        "events": [
+          {
+            "minute": 9,
+            "type": "GOL",
+            "playerName": "se5yhy",
+            "teamName": "utrj"
+          },
+          {
+            "minute": 13,
+            "type": "GOL",
+            "playerName": "llllllllll",
+            "teamName": "erere"
+          },
+          {
+            "minute": 26,
+            "type": "GOL",
+            "playerName": "llllllllll",
+            "teamName": "erere"
+          },
+          {
+            "minute": 27,
+            "type": "GOL",
+            "playerName": "k5y7",
+            "teamName": "utrj"
+          },
+          {
+            "minute": 54,
+            "type": "OCCASIONE_MANCATA",
+            "playerName": "yjy",
+            "teamName": "utrj"
+          },
+          {
+            "minute": 55,
+            "type": "AMMONIZIONE",
+            "playerName": "uty",
+            "teamName": "utrj"
+          },
+          {
+            "minute": 56,
+            "type": "OCCASIONE_MANCATA",
+            "playerName": "uty",
+            "teamName": "utrj"
+          },
+          {
+            "minute": 57,
+            "type": "GOL",
+            "playerName": "yyyyyyyy",
+            "teamName": "erere"
+          },
+          {
+            "minute": 60,
+            "type": "PARATA",
+            "playerName": "se5yhy",
+            "teamName": "utrj"
+          },
+          {
+            "minute": 62,
+            "type": "OCCASIONE_MANCATA",
+            "playerName": "uty",
+            "teamName": "utrj"
+          },
+          {
+            "minute": 67,
+            "type": "OCCASIONE_MANCATA",
+            "playerName": "yjy",
+            "teamName": "utrj"
+          },
+          {
+            "minute": 77,
+            "type": "OCCASIONE_MANCATA",
+            "playerName": "se5yhy",
+            "teamName": "utrj"
+          }
+        ]
+      }
+    }
+  ],
+  "roundNumber": 15
+}
