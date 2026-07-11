@@ -2,46 +2,46 @@
   "name": "Final Whistle",
   "teams": [
     {
-      "name": "09pj3oft4i0njm\u00270",
+      "name": "uiglfcabf",
       "players": [
         {
-          "name": "pijpoeg\u0027èer",
+          "name": "ilsbfsabf",
           "role": "Centrocampista",
           "goals": 0,
-          "assists": 0,
-          "presences": 1,
+          "assists": 1,
+          "presences": 2,
           "saves": 0
         },
         {
-          "name": "porgmaler",
+          "name": "ldjbASD",
+          "role": "Centrocampista",
+          "goals": 1,
+          "assists": 1,
+          "presences": 2,
+          "saves": 0
+        },
+        {
+          "name": "dklsdns",
+          "role": "Centrocampista",
+          "goals": 2,
+          "assists": 2,
+          "presences": 2,
+          "saves": 0
+        },
+        {
+          "name": "xisknòds",
+          "role": "Centrocampista",
+          "goals": 1,
+          "assists": 2,
+          "presences": 2,
+          "saves": 0
+        },
+        {
+          "name": "kldnsN:D",
           "role": "Centrocampista",
           "goals": 2,
           "assists": 0,
-          "presences": 1,
-          "saves": 0
-        },
-        {
-          "name": "ionefkew",
-          "role": "Centrocampista",
-          "goals": 0,
-          "assists": 0,
-          "presences": 1,
-          "saves": 0
-        },
-        {
-          "name": "ipktn ge",
-          "role": "Centrocampista",
-          "goals": 0,
-          "assists": 1,
-          "presences": 1,
-          "saves": 0
-        },
-        {
-          "name": "ikntftwòe",
-          "role": "Centrocampista",
-          "goals": 0,
-          "assists": 1,
-          "presences": 1,
+          "presences": 2,
           "saves": 0
         }
       ],
@@ -49,34 +49,34 @@
       "formation": "F_4_4_2"
     },
     {
-      "name": "United Tolentino",
+      "name": "AC Chieti",
       "players": [
         {
-          "name": "Luca Paolucci",
+          "name": "Davide Di Fabio",
           "role": "Portiere",
           "goals": 0,
           "assists": 0,
           "presences": 1,
-          "saves": 5
+          "saves": 1
         },
         {
-          "name": "Luca Felicioni",
+          "name": "Matteo Ricci",
           "role": "Difensore",
           "goals": 0,
-          "assists": 2,
+          "assists": 0,
           "presences": 1,
           "saves": 0
         },
         {
-          "name": "Luca Paolucci",
+          "name": "Davide Primavera",
           "role": "Difensore",
           "goals": 0,
-          "assists": 1,
+          "assists": 0,
           "presences": 1,
           "saves": 0
         },
         {
-          "name": "Luca Primavera",
+          "name": "Luca Di Fabio",
           "role": "Centrocampista",
           "goals": 1,
           "assists": 0,
@@ -84,56 +84,9 @@
           "saves": 0
         },
         {
-          "name": "Luca Felicioni",
+          "name": "Andrea Primavera",
           "role": "Centrocampista",
-          "goals": 3,
-          "assists": 1,
-          "presences": 1,
-          "saves": 0
-        }
-      ],
-      "tactic": "DEFENSIVE",
-      "formation": "F_3_5_2"
-    },
-    {
-      "name": "AC Camerino",
-      "players": [
-        {
-          "name": "Francesco Paolucci",
-          "role": "Portiere",
           "goals": 0,
-          "assists": 1,
-          "presences": 1,
-          "saves": 4
-        },
-        {
-          "name": "Francesco Paolucci",
-          "role": "Difensore",
-          "goals": 0,
-          "assists": 0,
-          "presences": 1,
-          "saves": 0
-        },
-        {
-          "name": "Andrea Di Marzio",
-          "role": "Difensore",
-          "goals": 0,
-          "assists": 2,
-          "presences": 1,
-          "saves": 0
-        },
-        {
-          "name": "Giovanni Di Biase",
-          "role": "Centrocampista",
-          "goals": 1,
-          "assists": 0,
-          "presences": 1,
-          "saves": 0
-        },
-        {
-          "name": "Davide Felicioni",
-          "role": "Centrocampista",
-          "goals": 3,
           "assists": 1,
           "presences": 1,
           "saves": 0
@@ -143,10 +96,57 @@
       "formation": "F_4_3_3"
     },
     {
-      "name": "United Pescara",
+      "name": "Real Chieti",
       "players": [
         {
-          "name": "Davide Di Marzio",
+          "name": "Luca Felicioni",
+          "role": "Portiere",
+          "goals": 0,
+          "assists": 2,
+          "presences": 2,
+          "saves": 4
+        },
+        {
+          "name": "Matteo Felicioni",
+          "role": "Difensore",
+          "goals": 0,
+          "assists": 2,
+          "presences": 2,
+          "saves": 0
+        },
+        {
+          "name": "Simone Di Crescenzo",
+          "role": "Difensore",
+          "goals": 0,
+          "assists": 0,
+          "presences": 2,
+          "saves": 0
+        },
+        {
+          "name": "Luca Del Greco",
+          "role": "Centrocampista",
+          "goals": 4,
+          "assists": 1,
+          "presences": 2,
+          "saves": 0
+        },
+        {
+          "name": "Francesco Felicioni",
+          "role": "Centrocampista",
+          "goals": 3,
+          "assists": 2,
+          "presences": 2,
+          "saves": 0
+        }
+      ],
+      "tactic": "BALANCED",
+      "formation": "F_3_5_2"
+    },
+    {
+      "name": "Sporting Guardiagrele",
+      "players": [
+        {
+          "name": "Andrea Esposito",
           "role": "Portiere",
           "goals": 0,
           "assists": 0,
@@ -154,85 +154,85 @@
           "saves": 4
         },
         {
-          "name": "Simone Del Greco",
+          "name": "Andrea Felicioni",
           "role": "Difensore",
           "goals": 0,
-          "assists": 0,
-          "presences": 1,
-          "saves": 0
-        },
-        {
-          "name": "Francesco Di Marzio",
-          "role": "Difensore",
-          "goals": 0,
-          "assists": 0,
-          "presences": 1,
-          "saves": 0
-        },
-        {
-          "name": "Davide Primavera",
-          "role": "Centrocampista",
-          "goals": 1,
           "assists": 1,
           "presences": 1,
           "saves": 0
         },
         {
-          "name": "Roberto Di Marzio",
-          "role": "Centrocampista",
-          "goals": 1,
+          "name": "Giovanni Di Biase",
+          "role": "Difensore",
+          "goals": 0,
           "assists": 1,
+          "presences": 1,
+          "saves": 0
+        },
+        {
+          "name": "Andrea Di Biase",
+          "role": "Centrocampista",
+          "goals": 2,
+          "assists": 0,
+          "presences": 1,
+          "saves": 0
+        },
+        {
+          "name": "Luca Di Marzio",
+          "role": "Centrocampista",
+          "goals": 0,
+          "assists": 0,
           "presences": 1,
           "saves": 0
         }
       ],
-      "tactic": "OFFENSIVE",
-      "formation": "F_4_4_2"
+      "tactic": "DEFENSIVE",
+      "formation": "F_4_3_3"
     }
   ],
   "currentRound": [
     {
       "homeTeam": {
-        "name": "09pj3oft4i0njm\u00270",
+        "name": "uiglfcabf",
         "players": [
           {
-            "name": "pijpoeg\u0027èer",
+            "name": "ilsbfsabf",
             "role": "Centrocampista",
             "goals": 0,
-            "assists": 0,
-            "presences": 1,
+            "assists": 1,
+            "presences": 2,
             "saves": 0
           },
           {
-            "name": "porgmaler",
+            "name": "ldjbASD",
+            "role": "Centrocampista",
+            "goals": 1,
+            "assists": 1,
+            "presences": 2,
+            "saves": 0
+          },
+          {
+            "name": "dklsdns",
+            "role": "Centrocampista",
+            "goals": 2,
+            "assists": 2,
+            "presences": 2,
+            "saves": 0
+          },
+          {
+            "name": "xisknòds",
+            "role": "Centrocampista",
+            "goals": 1,
+            "assists": 2,
+            "presences": 2,
+            "saves": 0
+          },
+          {
+            "name": "kldnsN:D",
             "role": "Centrocampista",
             "goals": 2,
             "assists": 0,
-            "presences": 1,
-            "saves": 0
-          },
-          {
-            "name": "ionefkew",
-            "role": "Centrocampista",
-            "goals": 0,
-            "assists": 0,
-            "presences": 1,
-            "saves": 0
-          },
-          {
-            "name": "ipktn ge",
-            "role": "Centrocampista",
-            "goals": 0,
-            "assists": 1,
-            "presences": 1,
-            "saves": 0
-          },
-          {
-            "name": "ikntftwòe",
-            "role": "Centrocampista",
-            "goals": 0,
-            "assists": 1,
-            "presences": 1,
+            "presences": 2,
             "saves": 0
           }
         ],
@@ -240,451 +240,219 @@
         "formation": "F_4_4_2"
       },
       "awayTeam": {
-        "name": "United Tolentino",
+        "name": "Real Chieti",
         "players": [
           {
-            "name": "Luca Paolucci",
-            "role": "Portiere",
-            "goals": 0,
-            "assists": 0,
-            "presences": 1,
-            "saves": 5
-          },
-          {
             "name": "Luca Felicioni",
-            "role": "Difensore",
+            "role": "Portiere",
             "goals": 0,
             "assists": 2,
-            "presences": 1,
-            "saves": 0
-          },
-          {
-            "name": "Luca Paolucci",
-            "role": "Difensore",
-            "goals": 0,
-            "assists": 1,
-            "presences": 1,
-            "saves": 0
-          },
-          {
-            "name": "Luca Primavera",
-            "role": "Centrocampista",
-            "goals": 1,
-            "assists": 0,
-            "presences": 1,
-            "saves": 0
-          },
-          {
-            "name": "Luca Felicioni",
-            "role": "Centrocampista",
-            "goals": 3,
-            "assists": 1,
-            "presences": 1,
-            "saves": 0
-          }
-        ],
-        "tactic": "DEFENSIVE",
-        "formation": "F_3_5_2"
-      },
-      "result": {
-        "homeTeam": {
-          "name": "09pj3oft4i0njm\u00270",
-          "players": [
-            {
-              "name": "pijpoeg\u0027èer",
-              "role": "Centrocampista",
-              "goals": 0,
-              "assists": 0,
-              "presences": 1,
-              "saves": 0
-            },
-            {
-              "name": "porgmaler",
-              "role": "Centrocampista",
-              "goals": 2,
-              "assists": 0,
-              "presences": 1,
-              "saves": 0
-            },
-            {
-              "name": "ionefkew",
-              "role": "Centrocampista",
-              "goals": 0,
-              "assists": 0,
-              "presences": 1,
-              "saves": 0
-            },
-            {
-              "name": "ipktn ge",
-              "role": "Centrocampista",
-              "goals": 0,
-              "assists": 1,
-              "presences": 1,
-              "saves": 0
-            },
-            {
-              "name": "ikntftwòe",
-              "role": "Centrocampista",
-              "goals": 0,
-              "assists": 1,
-              "presences": 1,
-              "saves": 0
-            }
-          ],
-          "tactic": "DEFENSIVE",
-          "formation": "F_4_4_2"
-        },
-        "awayTeam": {
-          "name": "United Tolentino",
-          "players": [
-            {
-              "name": "Luca Paolucci",
-              "role": "Portiere",
-              "goals": 0,
-              "assists": 0,
-              "presences": 1,
-              "saves": 5
-            },
-            {
-              "name": "Luca Felicioni",
-              "role": "Difensore",
-              "goals": 0,
-              "assists": 2,
-              "presences": 1,
-              "saves": 0
-            },
-            {
-              "name": "Luca Paolucci",
-              "role": "Difensore",
-              "goals": 0,
-              "assists": 1,
-              "presences": 1,
-              "saves": 0
-            },
-            {
-              "name": "Luca Primavera",
-              "role": "Centrocampista",
-              "goals": 1,
-              "assists": 0,
-              "presences": 1,
-              "saves": 0
-            },
-            {
-              "name": "Luca Felicioni",
-              "role": "Centrocampista",
-              "goals": 3,
-              "assists": 1,
-              "presences": 1,
-              "saves": 0
-            }
-          ],
-          "tactic": "DEFENSIVE",
-          "formation": "F_3_5_2"
-        },
-        "homeGoals": 2,
-        "awayGoals": 4,
-        "events": [
-          {
-            "minute": 6,
-            "type": "GOL",
-            "playerName": "porgmaler",
-            "teamName": "09pj3oft4i0njm\u00270"
-          },
-          {
-            "minute": 24,
-            "type": "GOL",
-            "playerName": "Luca Primavera",
-            "teamName": "United Tolentino"
-          },
-          {
-            "minute": 25,
-            "type": "GOL",
-            "playerName": "Luca Primavera",
-            "teamName": "United Tolentino"
-          },
-          {
-            "minute": 49,
-            "type": "GOL",
-            "playerName": "ipktn ge",
-            "teamName": "09pj3oft4i0njm\u00270"
-          },
-          {
-            "minute": 65,
-            "type": "OCCASIONE_MANCATA",
-            "playerName": "pijpoeg\u0027èer",
-            "teamName": "09pj3oft4i0njm\u00270"
-          },
-          {
-            "minute": 70,
-            "type": "GOL",
-            "playerName": "Luca Primavera",
-            "teamName": "United Tolentino"
-          },
-          {
-            "minute": 70,
-            "type": "AMMONIZIONE",
-            "playerName": "pijpoeg\u0027èer",
-            "teamName": "09pj3oft4i0njm\u00270"
-          },
-          {
-            "minute": 78,
-            "type": "GOL",
-            "playerName": "Luca Felicioni",
-            "teamName": "United Tolentino"
-          },
-          {
-            "minute": 86,
-            "type": "OCCASIONE_MANCATA",
-            "playerName": "pijpoeg\u0027èer",
-            "teamName": "09pj3oft4i0njm\u00270"
-          }
-        ]
-      }
-    },
-    {
-      "homeTeam": {
-        "name": "AC Camerino",
-        "players": [
-          {
-            "name": "Francesco Paolucci",
-            "role": "Portiere",
-            "goals": 0,
-            "assists": 1,
-            "presences": 1,
+            "presences": 2,
             "saves": 4
           },
           {
-            "name": "Francesco Paolucci",
-            "role": "Difensore",
-            "goals": 0,
-            "assists": 0,
-            "presences": 1,
-            "saves": 0
-          },
-          {
-            "name": "Andrea Di Marzio",
+            "name": "Matteo Felicioni",
             "role": "Difensore",
             "goals": 0,
             "assists": 2,
-            "presences": 1,
+            "presences": 2,
             "saves": 0
           },
           {
-            "name": "Giovanni Di Biase",
-            "role": "Centrocampista",
-            "goals": 1,
+            "name": "Simone Di Crescenzo",
+            "role": "Difensore",
+            "goals": 0,
             "assists": 0,
-            "presences": 1,
+            "presences": 2,
             "saves": 0
           },
           {
-            "name": "Davide Felicioni",
+            "name": "Luca Del Greco",
+            "role": "Centrocampista",
+            "goals": 4,
+            "assists": 1,
+            "presences": 2,
+            "saves": 0
+          },
+          {
+            "name": "Francesco Felicioni",
             "role": "Centrocampista",
             "goals": 3,
-            "assists": 1,
-            "presences": 1,
+            "assists": 2,
+            "presences": 2,
             "saves": 0
           }
         ],
         "tactic": "BALANCED",
-        "formation": "F_4_3_3"
-      },
-      "awayTeam": {
-        "name": "United Pescara",
-        "players": [
-          {
-            "name": "Davide Di Marzio",
-            "role": "Portiere",
-            "goals": 0,
-            "assists": 0,
-            "presences": 1,
-            "saves": 4
-          },
-          {
-            "name": "Simone Del Greco",
-            "role": "Difensore",
-            "goals": 0,
-            "assists": 0,
-            "presences": 1,
-            "saves": 0
-          },
-          {
-            "name": "Francesco Di Marzio",
-            "role": "Difensore",
-            "goals": 0,
-            "assists": 0,
-            "presences": 1,
-            "saves": 0
-          },
-          {
-            "name": "Davide Primavera",
-            "role": "Centrocampista",
-            "goals": 1,
-            "assists": 1,
-            "presences": 1,
-            "saves": 0
-          },
-          {
-            "name": "Roberto Di Marzio",
-            "role": "Centrocampista",
-            "goals": 1,
-            "assists": 1,
-            "presences": 1,
-            "saves": 0
-          }
-        ],
-        "tactic": "OFFENSIVE",
-        "formation": "F_4_4_2"
+        "formation": "F_3_5_2"
       },
       "result": {
         "homeTeam": {
-          "name": "AC Camerino",
+          "name": "uiglfcabf",
           "players": [
             {
-              "name": "Francesco Paolucci",
-              "role": "Portiere",
+              "name": "ilsbfsabf",
+              "role": "Centrocampista",
               "goals": 0,
               "assists": 1,
-              "presences": 1,
+              "presences": 2,
+              "saves": 0
+            },
+            {
+              "name": "ldjbASD",
+              "role": "Centrocampista",
+              "goals": 1,
+              "assists": 1,
+              "presences": 2,
+              "saves": 0
+            },
+            {
+              "name": "dklsdns",
+              "role": "Centrocampista",
+              "goals": 2,
+              "assists": 2,
+              "presences": 2,
+              "saves": 0
+            },
+            {
+              "name": "xisknòds",
+              "role": "Centrocampista",
+              "goals": 1,
+              "assists": 2,
+              "presences": 2,
+              "saves": 0
+            },
+            {
+              "name": "kldnsN:D",
+              "role": "Centrocampista",
+              "goals": 2,
+              "assists": 0,
+              "presences": 2,
+              "saves": 0
+            }
+          ],
+          "tactic": "DEFENSIVE",
+          "formation": "F_4_4_2"
+        },
+        "awayTeam": {
+          "name": "Real Chieti",
+          "players": [
+            {
+              "name": "Luca Felicioni",
+              "role": "Portiere",
+              "goals": 0,
+              "assists": 2,
+              "presences": 2,
               "saves": 4
             },
             {
-              "name": "Francesco Paolucci",
-              "role": "Difensore",
-              "goals": 0,
-              "assists": 0,
-              "presences": 1,
-              "saves": 0
-            },
-            {
-              "name": "Andrea Di Marzio",
+              "name": "Matteo Felicioni",
               "role": "Difensore",
               "goals": 0,
               "assists": 2,
-              "presences": 1,
+              "presences": 2,
               "saves": 0
             },
             {
-              "name": "Giovanni Di Biase",
-              "role": "Centrocampista",
-              "goals": 1,
+              "name": "Simone Di Crescenzo",
+              "role": "Difensore",
+              "goals": 0,
               "assists": 0,
-              "presences": 1,
+              "presences": 2,
               "saves": 0
             },
             {
-              "name": "Davide Felicioni",
+              "name": "Luca Del Greco",
+              "role": "Centrocampista",
+              "goals": 4,
+              "assists": 1,
+              "presences": 2,
+              "saves": 0
+            },
+            {
+              "name": "Francesco Felicioni",
               "role": "Centrocampista",
               "goals": 3,
-              "assists": 1,
-              "presences": 1,
+              "assists": 2,
+              "presences": 2,
               "saves": 0
             }
           ],
           "tactic": "BALANCED",
-          "formation": "F_4_3_3"
+          "formation": "F_3_5_2"
         },
-        "awayTeam": {
-          "name": "United Pescara",
-          "players": [
-            {
-              "name": "Davide Di Marzio",
-              "role": "Portiere",
-              "goals": 0,
-              "assists": 0,
-              "presences": 1,
-              "saves": 4
-            },
-            {
-              "name": "Simone Del Greco",
-              "role": "Difensore",
-              "goals": 0,
-              "assists": 0,
-              "presences": 1,
-              "saves": 0
-            },
-            {
-              "name": "Francesco Di Marzio",
-              "role": "Difensore",
-              "goals": 0,
-              "assists": 0,
-              "presences": 1,
-              "saves": 0
-            },
-            {
-              "name": "Davide Primavera",
-              "role": "Centrocampista",
-              "goals": 1,
-              "assists": 1,
-              "presences": 1,
-              "saves": 0
-            },
-            {
-              "name": "Roberto Di Marzio",
-              "role": "Centrocampista",
-              "goals": 1,
-              "assists": 1,
-              "presences": 1,
-              "saves": 0
-            }
-          ],
-          "tactic": "OFFENSIVE",
-          "formation": "F_4_4_2"
-        },
-        "homeGoals": 4,
-        "awayGoals": 2,
+        "homeGoals": 3,
+        "awayGoals": 4,
         "events": [
           {
+            "minute": 1,
+            "type": "GOL",
+            "playerName": "kldnsN:D",
+            "teamName": "uiglfcabf"
+          },
+          {
+            "minute": 5,
+            "type": "GOL",
+            "playerName": "ilsbfsabf",
+            "teamName": "uiglfcabf"
+          },
+          {
+            "minute": 8,
+            "type": "GOL",
+            "playerName": "Francesco Felicioni",
+            "teamName": "Real Chieti"
+          },
+          {
+            "minute": 13,
+            "type": "GOL",
+            "playerName": "ldjbASD",
+            "teamName": "uiglfcabf"
+          },
+          {
+            "minute": 19,
+            "type": "GOL",
+            "playerName": "Luca Del Greco",
+            "teamName": "Real Chieti"
+          },
+          {
+            "minute": 26,
+            "type": "GOL",
+            "playerName": "Francesco Felicioni",
+            "teamName": "Real Chieti"
+          },
+          {
             "minute": 30,
+            "type": "PARATA",
+            "playerName": "dklsdns",
+            "teamName": "uiglfcabf"
+          },
+          {
+            "minute": 32,
+            "type": "PARATA",
+            "playerName": "xisknòds",
+            "teamName": "uiglfcabf"
+          },
+          {
+            "minute": 32,
             "type": "GOL",
-            "playerName": "Davide Primavera",
-            "teamName": "United Pescara"
+            "playerName": "Luca Del Greco",
+            "teamName": "Real Chieti"
           },
           {
-            "minute": 36,
-            "type": "GOL",
-            "playerName": "Davide Primavera",
-            "teamName": "United Pescara"
+            "minute": 70,
+            "type": "PARATA",
+            "playerName": "ilsbfsabf",
+            "teamName": "uiglfcabf"
           },
           {
-            "minute": 37,
-            "type": "GOL",
-            "playerName": "Davide Felicioni",
-            "teamName": "AC Camerino"
-          },
-          {
-            "minute": 42,
-            "type": "GOL",
-            "playerName": "Giovanni Di Biase",
-            "teamName": "AC Camerino"
-          },
-          {
-            "minute": 63,
-            "type": "GOL",
-            "playerName": "Giovanni Di Biase",
-            "teamName": "AC Camerino"
-          },
-          {
-            "minute": 66,
-            "type": "AMMONIZIONE",
-            "playerName": "Davide Primavera",
-            "teamName": "United Pescara"
-          },
-          {
-            "minute": 80,
-            "type": "GOL",
-            "playerName": "Giovanni Di Biase",
-            "teamName": "AC Camerino"
-          },
-          {
-            "minute": 83,
-            "type": "OCCASIONE_MANCATA",
-            "playerName": "Davide Primavera",
-            "teamName": "United Pescara"
+            "minute": 72,
+            "type": "PARATA",
+            "playerName": "Francesco Felicioni",
+            "teamName": "Real Chieti"
           }
         ]
       }
     }
   ],
-  "roundNumber": 1
+  "roundNumber": 2
 }
