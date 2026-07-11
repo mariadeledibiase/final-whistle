@@ -7,6 +7,9 @@ Final Whistle è un gioco di ruolo a tema calcistico sviluppato in Java con inte
 - Creazione della propria squadra con nome, tattica e creazione giocatori per la tua squadra (nome e ruolo)
 - Scelta della tattica di gioco: Offensiva, Difensiva, Bilanciata
 - Simulazione delle partite con cronaca degli eventi minuto per minuto
+- Scelta dello schema di gioco (4-3-3, 4-4-2, 3-5-2, 5-3-2)
+- Possibilità di effettuare una sostituzione prima della partita
+- Rimozione di giocatori dalla rosa prima di avviare il torneo
 - Statistiche dei giocatori aggiornate dopo ogni partita (gol, assist, presenze, parate)
 - Torneo a eliminazione diretta con 4 squadre (semifinali e finale)
 - Salvataggio automatico del torneo in formato JSON
