@@ -10,40 +10,31 @@ import javafx.stage.Stage;
 import javafx.scene.control.Button;
 
 /**
- * Controller della schermata principale.
- * Gestisce l'avvio di una nuova partita e la creazione e del servizio del torneo condiviso tra le schermate.
+ * Controller della schermata principale dell'applicazione.
  */
 public class MainController {
 
     /** Pulsante per iniziare una nuova partita */
     @FXML private Button btnNewGame;
 
-    /** Servizio condiviso del torneo — ricreato ad ogni nuova partita */
-    private static TournamentService tournamentService;
-
     /**
-     * Restituisce il servizio del torneo condiviso.
-     */
-    public static TournamentService getTournamentService() {
-        return tournamentService;
-    }
-
-    /**
-     * Crea un nuovo servizio e apre la schermata di creazione squadra.
+     * Crea un nuovo servizio del torneo e apre la schermata di creazione della squadra.
      */
     @FXML
     private void onNewGame() {
-        // Ricrea sempre un nuovo servizio ad ogni partita
-        tournamentService = new TournamentService(
-                new DefaultMatchEngine(),
-                new JsonTournamentRepository()
-        );
-        tournamentService.createTournament("Final Whistle");
-
         try {
+            TournamentService tournamentService = new TournamentService(
+                    new DefaultMatchEngine(),
+                    new JsonTournamentRepository()
+            );
+            tournamentService.createTournament("Final Whistle");
+
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/CreateTeamView.fxml"));
             Stage stage = (Stage) btnNewGame.getScene().getWindow();
-            stage.setScene(new Scene(loader.load(), 800, 600));
+            Scene scene = new Scene(loader.load(), 800, 600);
+            CreateTeamController controller = loader.getController();
+            controller.setTournamentService(tournamentService);
+            stage.setScene(scene);
         } catch (Exception e) {
             e.printStackTrace();
         }

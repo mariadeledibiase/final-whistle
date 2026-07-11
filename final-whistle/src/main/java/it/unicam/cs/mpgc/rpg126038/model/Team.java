@@ -18,15 +18,26 @@ public class Team {
     /** Tattica attualmente adottata dalla squadra */
     private Tactic tactic;
 
+    /** Schema di gioco della squadra */
+    private Formation formation;
+
     /**
      * Costruttore che inizializza una squadra con nome e tattica.
      */
-    public Team(String name, Tactic tactic) {
+    public Team(String name, Tactic tactic, Formation formation) {
         this.name = name;
         this.tactic = tactic;
+        this.formation = formation;
         this.players = new ArrayList<>();
     }
 
+    /**
+     * Costruttore che inizializza una squadra con nome e tattica.
+     * Lo schema predefinito è 4-4-2.
+     */
+    public Team(String name, Tactic tactic) {
+        this(name, tactic, Formation.F_4_4_2);
+    }
     /**
      * Aggiunge un giocatore alla squadra.
      */
@@ -42,38 +53,45 @@ public class Team {
     }
 
     /**
-     * Calcola la forza complessiva della squadra in base al punteggio fantacalcio dei giocatori e alla tattica adottata.
+     * Calcola la forza complessiva della squadra
+     * in base alla tattica e allo schema di gioco adottati.
      */
-
     public double calculateStrength() {
-        if (players.isEmpty()) return 0;
-        double base = players.stream()
-                .mapToDouble(Player::calculateScore)
-                .average()
-                .orElse(0);
-        // Se tutti i giocatori hanno statistiche a 0, usa un valore base casuale
-        if (base == 0) base = 50;
-        return switch (tactic) {
-            case OFFENSIVE -> base * 1.2;
-            case DEFENSIVE -> base * 0.9;
-            case BALANCED  -> base;
+        double base = switch (tactic) {
+            case OFFENSIVE -> 60.0;
+            case DEFENSIVE -> 40.0;
+            case BALANCED  -> 50.0;
         };
+
+        double formationBonus = switch (formation) {
+            case F_4_3_3 -> 5.0;
+            case F_4_4_2 -> 0.0;
+            case F_3_5_2 -> 2.0;
+            case F_5_3_2 -> -3.0;
+        };
+
+        return base + formationBonus;
     }
 
     public String getName() { return name; }
     public List<Player> getPlayers() { return players; }
     public Tactic getTactic() { return tactic; }
-
+    public Formation getFormation() { return formation; }
     /**
      * Cambia la tattica della squadra.
      */
     public void setTactic(Tactic tactic) { this.tactic = tactic; }
 
     /**
+     * Cambia lo schema di gioco della squadra.
+     */
+    public void setFormation(Formation formation) { this.formation = formation; }
+
+    /**
      * Restituisce una rappresentazione testuale della squadra.
      */
     @Override
     public String toString() {
-        return name + " [" + tactic + "] - " + players.size() + " giocatori";
+        return name + " [" + tactic + " - " + formation + "] - " + players.size() + " giocatori";
     }
 }

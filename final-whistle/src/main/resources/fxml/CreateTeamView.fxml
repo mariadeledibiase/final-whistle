@@ -16,7 +16,7 @@
         <VBox>
             <Label text="Crea la tua Squadra"
                    style="-fx-font-size: 24; -fx-font-weight: bold; -fx-text-fill: #1a1a1a;"/>
-            <Label text="Inserisci nome, tattica e rosa giocatori"
+            <Label text="Inserisci nome, tattica, schema e rosa giocatori"
                    style="-fx-font-size: 13; -fx-text-fill: #888888;"/>
         </VBox>
     </HBox>
@@ -33,9 +33,11 @@
                        promptText="Nome squadra (es. FC Roma)"
                        style="-fx-font-size: 14; -fx-padding: 10;
                               -fx-background-radius: 8; -fx-border-color: #e0e0e0;
-                              -fx-border-radius: 8; -fx-min-width: 240;"/>
+                              -fx-border-radius: 8; -fx-min-width: 180;"/>
             <ComboBox fx:id="cmbTactic"
-                      style="-fx-font-size: 13; -fx-min-width: 140;"/>
+                      style="-fx-font-size: 13; -fx-min-width: 120;"/>
+            <ComboBox fx:id="cmbFormation"
+                      style="-fx-font-size: 13; -fx-min-width: 120;"/>
         </HBox>
     </VBox>
 
@@ -57,6 +59,12 @@
             <Button text="+ Aggiungi"
                     onAction="#onAddPlayer"
                     style="-fx-background-color: #2e7d32; -fx-text-fill: white;
+                           -fx-font-size: 13; -fx-font-weight: bold;
+                           -fx-padding: 10 16 10 16; -fx-background-radius: 8;
+                           -fx-cursor: hand;"/>
+            <Button text="- Rimuovi"
+                    onAction="#onRemovePlayer"
+                    style="-fx-background-color: #c62828; -fx-text-fill: white;
                            -fx-font-size: 13; -fx-font-weight: bold;
                            -fx-padding: 10 16 10 16; -fx-background-radius: 8;
                            -fx-cursor: hand;"/>
@@ -83,5 +91,9 @@
                        -fx-font-size: 14; -fx-min-width: 120;
                        -fx-padding: 13; -fx-background-radius: 10; -fx-cursor: hand;"/>
     </HBox>
+
+    <Label fx:id="lblPlayerCount"
+           text="Giocatori: 0 / 11  (minimo 5 per iniziare)"
+           style="-fx-font-size: 12; -fx-text-fill: #888888;"/>
 
 </VBox>

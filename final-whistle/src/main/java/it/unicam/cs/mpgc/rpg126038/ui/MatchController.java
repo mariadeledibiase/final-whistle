@@ -9,6 +9,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.layout.VBox;
@@ -25,7 +26,10 @@ public class MatchController {
     @FXML private Label lblScore;
     @FXML private Label lblTactic;
     @FXML private Label lblResult;
+    @FXML private Label lblSubstitution;
     @FXML private ListView<String> lstEvents;
+    @FXML private ComboBox<String> cmbPlayerOut;
+    @FXML private ComboBox<String> cmbPlayerIn;
     @FXML private Button btnPlay;
     @FXML private Button btnContinue;
     @FXML private VBox root;
@@ -34,7 +38,7 @@ public class MatchController {
     private Team playerTeam;
     private Match currentMatch;
     private boolean playerWon = false;
-
+    private boolean substitutionDone = false;
     /**
      * Inizializza il controller nascondendo il pulsante continua e il label risultato.
      */
@@ -61,6 +65,10 @@ public class MatchController {
         lblScore.setText("? - ?");
         lblTactic.setText("Tattica: " + tacticToItalian(playerTeam.getTactic().name()));
         lstEvents.getItems().add("Scegli la tattica e clicca Gioca la Partita!");
+        for (Player p : playerTeam.getPlayers()) {
+            cmbPlayerOut.getItems().add(p.getName() + " [" + p.getRole() + "]");
+            cmbPlayerIn.getItems().add(p.getName() + " [" + p.getRole() + "]");
+        }
     }
 
     /**
@@ -116,7 +124,43 @@ public class MatchController {
         btnContinue.setVisible(true);
         btnContinue.setManaged(true);
         btnPlay.setDisable(true);
+        cmbPlayerOut.setDisable(true);
+        cmbPlayerIn.setDisable(true);
         tournamentService.saveTournament();
+    }
+
+    /**
+     * Effettua una sostituzione nella squadra del giocatore.
+     * È possibile effettuare una sola sostituzione per partita.
+     */
+    @FXML
+    private void onSubstitute() {
+        if (substitutionDone) {
+            lblSubstitution.setText("Hai già effettuato una sostituzione!");
+            return;
+        }
+        if (currentMatch.isPlayed()) {
+            lblSubstitution.setText("La partita è già iniziata!");
+            return;
+        }
+
+        int outIndex = cmbPlayerOut.getSelectionModel().getSelectedIndex();
+        int inIndex = cmbPlayerIn.getSelectionModel().getSelectedIndex();
+        if (outIndex < 0 || inIndex < 0 || outIndex == inIndex) {
+            lblSubstitution.setText("Seleziona due giocatori diversi!");
+            return;
+        }
+
+        Player playerOut = playerTeam.getPlayers().get(outIndex);
+        Player playerIn = playerTeam.getPlayers().get(inIndex);
+
+        // Scambia le posizioni dei due giocatori nella lista
+        playerTeam.getPlayers().set(outIndex, playerIn);
+        playerTeam.getPlayers().set(inIndex, playerOut);
+
+        substitutionDone = true;
+        lblSubstitution.setText("Sostituzione effettuata: " +
+                playerOut.getName() + " ↔ " + playerIn.getName());
     }
 
     /**

@@ -39,14 +39,15 @@
                style="-fx-font-size: 11; -fx-font-weight: bold;
                       -fx-text-fill: #2e7d32; -fx-letter-spacing: 1;"/>
         <ListView fx:id="lstEvents"
-                  style="-fx-min-height: 180; -fx-font-size: 13;
+                  style="-fx-min-height: 160; -fx-font-size: 13;
                          -fx-border-color: #eeeeee; -fx-border-radius: 8;"/>
     </VBox>
 
-    <!-- Tattica -->
+    <!-- Tattica e Sostituzioni -->
     <VBox spacing="8" style="-fx-background-color: white; -fx-padding: 14;
                               -fx-background-radius: 12;
                               -fx-effect: dropshadow(gaussian, #e0e0e0, 6, 0, 0, 2);">
+
         <Label text="CAMBIA TATTICA"
                style="-fx-font-size: 11; -fx-font-weight: bold;
                       -fx-text-fill: #888; -fx-letter-spacing: 1;"/>
@@ -54,19 +55,39 @@
             <Button text="Offensiva"
                     onAction="#onSetOffensive"
                     style="-fx-background-color: #ffebee; -fx-text-fill: #c62828;
-                           -fx-font-weight: bold; -fx-min-width: 120; -fx-padding: 9;
+                           -fx-font-weight: bold; -fx-min-width: 100; -fx-padding: 9;
                            -fx-background-radius: 8; -fx-cursor: hand;"/>
             <Button text="Difensiva"
                     onAction="#onSetDefensive"
                     style="-fx-background-color: #e3f2fd; -fx-text-fill: #1565c0;
-                           -fx-font-weight: bold; -fx-min-width: 120; -fx-padding: 9;
+                           -fx-font-weight: bold; -fx-min-width: 100; -fx-padding: 9;
                            -fx-background-radius: 8; -fx-cursor: hand;"/>
             <Button text="Bilanciata"
                     onAction="#onSetBalanced"
                     style="-fx-background-color: #fff8e1; -fx-text-fill: #f57f17;
-                           -fx-font-weight: bold; -fx-min-width: 120; -fx-padding: 9;
+                           -fx-font-weight: bold; -fx-min-width: 100; -fx-padding: 9;
                            -fx-background-radius: 8; -fx-cursor: hand;"/>
         </HBox>
+
+        <Label text="SOSTITUZIONE"
+               style="-fx-font-size: 11; -fx-font-weight: bold;
+                      -fx-text-fill: #888; -fx-letter-spacing: 1;"/>
+        <HBox spacing="10" alignment="CENTER">
+            <ComboBox fx:id="cmbPlayerOut"
+                      promptText="Giocatore che esce"
+                      style="-fx-min-width: 180;"/>
+            <ComboBox fx:id="cmbPlayerIn"
+                      promptText="Giocatore che entra"
+                      style="-fx-min-width: 180;"/>
+            <Button text="Sostituisci"
+                    onAction="#onSubstitute"
+                    style="-fx-background-color: #2e7d32; -fx-text-fill: white;
+                           -fx-font-weight: bold; -fx-padding: 9 14 9 14;
+                           -fx-background-radius: 8; -fx-cursor: hand;"/>
+        </HBox>
+        <Label fx:id="lblSubstitution"
+               text=""
+               style="-fx-font-size: 12; -fx-text-fill: #2e7d32;"/>
     </VBox>
 
     <!-- Pulsanti -->
